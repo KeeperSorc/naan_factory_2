@@ -18,3 +18,7 @@ print(type(setup_result)==int)
 print("test deliver_naan function, when called, should take in the distance for the delivery, and return delivery time")
 setup_result = nff.deliver_naan(30)
 print(type(setup_result)==int)
+
+#Test 4 - test naan_factory function
+setup_result = nff.naan_factory(10,20)
+print(type(setup_result)==int)

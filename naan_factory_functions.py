@@ -14,3 +14,7 @@ def bake_naan(dough_arg):
 def deliver_naan(distance_arg):
     delivery_time = (distance_arg/10)*60
     return delivery_time
+
+#naan_factory function - combines the make_dough and bake_naan functions
+def naan_factory(wheat_arg,water_arg):
+    return bake_naan(make_dough(wheat_arg,water_arg))
